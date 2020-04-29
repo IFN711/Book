@@ -1,0 +1,202 @@
+
+@font-face {
+	font-family:"LaoSansPro-Regular";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/LaoSansPro-Regular.ttf)
+}
+
+
+
+@font-face {
+	font-family:"TimesNewRoman";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/TimesNewRoman.ttf)
+}
+
+
+
+@font-face {
+	font-family:"Arial";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/Arial.ttf)
+}
+
+@font-face {
+	font-family:"ArialBold";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/ArialBold.ttf)
+}
+
+
+@font-face {
+	font-family:"MinionPro-Regular";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/MinionPro-Regular.otf)
+}
+
+
+
+
+
+
+.container {
+	display:block;
+	margin-top:0px;
+	margin-bottom:auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-height:100%;
+	max-width:100%;
+	text-align:center;
+}
+
+
+a{
+	text-decoration:none;
+	 color:#000;
+}
+
+a.visited{
+	color:#000;
+}
+nav {
+display:none;
+}	
+
+
+.p {
+	font-family:"LaoSansPro-Regular";
+	font-size: 35px;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+.p1 {
+	font-family:"LaoSansPro-Regular";
+	font-size:90%;
+	margin-top:3%;
+	text-align:left;
+}
+
+.logo2{
+ width:30%;
+ height:15%;	
+}
+
+.logo1{
+ width:25%;
+ height:28%;	
+}
+
+
+.png{
+ width: 70%;
+ height:15%;	
+}
+
+
+.auth-h{
+font-size:40px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"LaoSansPro-Regular";
+	text-align: left;
+	color: #000000;
+
+	
+	
+}
+.auth-t{
+	font-family:"LaoSansPro-Regular";
+    text-align:left;	
+	font-size: 25px;
+	
+}
+
+.lfa-h{
+font-size:25px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"LaoSansPro-Regular";
+	text-align:center;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+.lfa-t{
+	font-family:"LaoSansPro-Regular";
+    text-align: center;
+	font-size: 21px;	
+}
+
+
+.tog-h{
+	font-family:"LaoSansPro-Regular";
+	text-align:center;
+	font-size:90%;
+}
+
+.tog-t{
+	font-family:"LaoSansPro-Regular";
+    text-align: center;
+	font-size:90%;	
+}
+
+
+.extra{
+	font-family:"LaoSansPro-Regular";
+    text-align: center;
+	font-size: 21px;	
+}
+
+.extra1{
+	font-family:"LaoSansPro-Regular";
+    text-align: left;
+	font-size: 21px;	
+}
+
+.extra2b{
+	font-family:"LaoSansPro-Regular";
+    text-align: left;
+	font-size: 21px;
+	margin-left: 10%;	
+}
+
+.t{
+font-family:"TimesNewRoman";
+}
+
+.arial{
+font-family:"Arial";}
+
+.here {
+	font-family:"LaoSansPro-Regular";
+	font-size: 23px;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+.extra2{
+	font-family:"LaoSansPro-Regular";
+    text-align: center;
+	font-size: 25px;
+	margin-top: 15%;
+		
+}
+
+.extra2a{
+	font-family:"LaoSansPro-Regular";
+    text-align: center;
+	font-size: 25px;
+	margin-top: 6%;
+		
+}

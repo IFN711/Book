@@ -1,0 +1,151 @@
+@font-face {
+	font-family:"CFCrayons-Regular";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/CFCrayons-Regular.ttf)
+}
+
+@font-face {
+	font-family:"TwCenMTBold";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/TwCenMTBold.ttf)
+}
+
+@font-face {
+	font-family:"TwCenMT";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/TwCenMT.ttf)
+}
+
+
+
+.container {
+	display:block;
+	margin-top:0px;
+	margin-bottom:auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-height:100%;
+	max-width:100%;
+	text-align:center;
+}
+
+
+a{
+	text-decoration:none;
+	 color:#000;
+}
+
+a.visited{
+	color:#000;
+}
+nav {
+display:none;
+}	
+
+
+.p {
+	font-family:"TwCenMT";
+	font-size:30px;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+.p1 {
+	font-family:"TwCenMT";
+	font-size:120%;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+
+p.Title {
+	color:#053868;
+	font-size:300%;
+	word-spacing:1px;
+	font-style:normal;
+	font-weight:normal;
+	margin-bottom:0%;
+	margin-left:0%;
+	font-family:"TwCenMTBold";
+	margin-right:0%;
+	margin-top:3%;
+	text-align:center;
+	text-indent:0%;
+}
+p.Author-Name {
+	color:#053868;
+	font-size:153%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"TwCenMTBold";
+	margin-bottom:0%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:3%;
+	text-align:center;
+	text-indent:0%;
+    letter-spacing: 3px;
+}
+p.Art-Name {
+	color:#053868;
+	font-size:93%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"TwCenMTBold";
+	margin-bottom:0%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:.2em;
+	text-align:center;
+	text-indent:0%;
+    letter-spacing: 3px;
+}
+
+
+.logo2{
+ width:30%;
+ height:15%;	
+}
+
+.logo1{
+ width:25%;
+ height:28%;	
+}
+
+
+
+.auth-h{
+font-size:30px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"CFCrayons-Regular";
+	color: #231f20;
+}
+.auth-t{
+	font-family:"TwCenMT";
+    text-align:justify;	
+	font-size: 120%;
+}
+
+.lfa-h{
+font-size:20px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"TwCenMTBold";
+	text-align:center;
+}
+
+.lfa-t{
+	font-family:"TwCenMT";
+    text-align: justify;
+	font-size: 16px;	
+}

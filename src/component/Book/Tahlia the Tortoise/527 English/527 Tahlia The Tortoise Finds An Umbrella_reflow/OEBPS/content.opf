@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="Bookid">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<dc:identifier id="Bookid">9781925863963</dc:identifier>
+	<dc:title id="title">Tahlia The Tortoise Finds An Umbrella</dc:title>
+	<dc:creator id="creator">Claire Raylor</dc:creator>
+	<dc:publisher>Library For All</dc:publisher>
+	<dc:date>June 2019</dc:date>
+	 <dc:language>en</dc:language>
+	<dc:subject>JUV043000</dc:subject>
+	<dc:subject>JUV002190</dc:subject>
+
+	<dc:description>Tahlia the tortoise is enjoying her new home. But suddenly something begins to fall from the sky!</dc:description>
+	
+	<meta property="dcterms:audience">Reading Level 3</meta>
+	<meta property="belongs-to-collection" id="c01">Books That Travel Collection</meta>
+	<meta refines="#c01" property="collection-type">collection</meta>
+
+	<dc:subject>weather</dc:subject> 
+	<dc:subject>animals</dc:subject>
+	<dc:subject>tortoise</dc:subject> 
+	<dc:subject>pets</dc:subject>
+	
+	<meta property="dcterms:modified">2019-06-14T12:00:00Z</meta>
+	<meta content="cover" name="cover" />
+ 	</metadata>
+	
+	
+	<manifest>
+ 	<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+	<item href="Styles/Stylesheet.css" id="css_0" media-type="text/css" />
+	<item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/back.xhtml" id="back.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/copy.xhtml" id="copy.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/title.xhtml" id="title.xhtml" media-type="application/xhtml+xml" />
+	 <item href="Text/p-1.xhtml" id="p-1.xhtml" media-type="application/xhtml+xml" /> 
+	<item href="Text/p-2.xhtml" id="p-2.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-3.xhtml" id="p-3.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-4.xhtml" id="p-4.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-5.xhtml" id="p-5.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-6.xhtml" id="p-6.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-7.xhtml" id="p-7.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-8.xhtml" id="p-8.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-9.xhtml" id="p-9.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-10.xhtml" id="p-10.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-11.xhtml" id="p-11.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-12.xhtml" id="p-12.xhtml" media-type="application/xhtml+xml" /> 
+	<item href="Text/p-13.xhtml" id="p-13.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/p-14.xhtml" id="p-14.xhtml" media-type="application/xhtml+xml" />	
+	<item href="Text/author.xhtml" id="author.xhtml" media-type="application/xhtml+xml" />
+	<item href="Text/lfa.xhtml" id="lfa.xhtml" media-type="application/xhtml+xml" />
+	
+
+	<item href="Fonts/CFCrayons-Regular.ttf" id="CFCrayons-Regular.ttf" media-type="application/x-font-ttf" />
+	<item href="Fonts/TwCenMTBold.ttf" id="TwCenMTBold.ttf" media-type="application/x-font-ttf" />
+	<item href="Fonts/TwCenMT.ttf" id="TwCenMT.ttf" media-type="application/x-font-ttf" />
+
+	
+	<item href="Images/title.jpg" id="title.jpg" media-type="image/jpeg" />
+	<item href="Images/p-1.jpg" id="p-1.jpg" media-type="image/jpeg" />
+	<item href="Images/p-2.jpg" id="p-2.jpg" media-type="image/jpeg" />
+	<item href="Images/p-3.jpg" id="p-3.jpg" media-type="image/jpeg" />
+	<item href="Images/p-4.jpg" id="p-4.jpg" media-type="image/jpeg" />
+	<item href="Images/p-5.jpg" id="p-5.jpg" media-type="image/jpeg" />
+	<item href="Images/p-6.jpg" id="p-6.jpg" media-type="image/jpeg" />
+	<item href="Images/p-7.jpg" id="p-7.jpg" media-type="image/jpeg" />
+	<item href="Images/p-8.jpg" id="p-8.jpg" media-type="image/jpeg" />
+	<item href="Images/p-9.jpg" id="p-9.jpg" media-type="image/jpeg" />
+	<item href="Images/p-10.jpg" id="p-10.jpg" media-type="image/jpeg" />
+	<item href="Images/p-11.jpg" id="p-11.jpg" media-type="image/jpeg" />
+	<item href="Images/p-12.jpg" id="p-12.jpg" media-type="image/jpeg" />
+	<item href="Images/p-13.jpg" id="p-13.jpg" media-type="image/jpeg" />
+	<item href="Images/p-14.jpg" id="p-14.jpg" media-type="image/jpeg" />	
+	<item href="Images/back.jpg" id="back.jpg" media-type="image/jpeg" />
+	<item href="Images/cover.jpg" id="cover" media-type="image/jpeg"/>
+	<item href="Images/logo2.jpg" id="logo2.jpg" media-type="image/jpeg"/>
+	<item href="Images/logo3.jpg" id="logo3.jpg" media-type="image/jpeg"/>
+	</manifest>
+
+
+	<spine>
+	<itemref idref="cover.xhtml" />
+	<itemref idref="copy.xhtml" />
+	<itemref idref="title.xhtml" />
+	<itemref idref="p-1.xhtml" />
+	<itemref idref="p-2.xhtml" />
+	<itemref idref="p-3.xhtml" />
+	<itemref idref="p-4.xhtml" />
+	<itemref idref="p-5.xhtml" />
+	<itemref idref="p-6.xhtml" />
+	<itemref idref="p-7.xhtml" />
+	<itemref idref="p-8.xhtml" />
+	<itemref idref="p-9.xhtml" />
+	<itemref idref="p-10.xhtml" />
+	<itemref idref="p-11.xhtml" />
+	<itemref idref="p-12.xhtml" />
+	<itemref idref="p-13.xhtml" />
+	<itemref idref="p-14.xhtml" />	
+	<itemref idref="author.xhtml" />
+	<itemref idref="lfa.xhtml" />
+	<itemref idref="back.xhtml" />
+	</spine>
+    <guide>
+    <reference href="Text/cover.xhtml" title="start" type="part" />
+  </guide>
+</package>

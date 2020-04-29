@@ -1,0 +1,139 @@
+@font-face {
+	font-family:"Arial";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/Arial.ttf)
+}
+
+@font-face {
+	font-family:"ArialBoldItalic";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/ArialBoldItalic.ttf)
+}
+
+@font-face {
+	font-family:"FranklinGothicMedium";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/FranklinGothicMedium.ttf)
+}
+
+@font-face {
+	font-family:"SinkinSans700Bold";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/SinkinSans700Bold.otf)
+}
+
+
+
+.container {
+	display:block;
+	margin-top:0px;
+	margin-bottom:auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-height:100%;
+	max-width:100%;
+	text-align:center;
+}
+
+
+a{
+	text-decoration:none;
+	 color:#000;
+}
+
+a.visited{
+	color:#000;
+}
+nav {
+display:none;
+}	
+
+
+.p {
+	font-family:"FranklinGothicMedium";
+	font-size:120%;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+.copy {
+	font-family:"FranklinGothicMedium";
+	font-size:90%;
+	margin-top:3%;
+	text-align:left;
+}
+
+
+p.Title {
+	color:#053868;
+	font-size:300%;
+	word-spacing:1px;
+	font-style:normal;
+	font-weight:normal;
+	margin-bottom:0%;
+	margin-left:0%;
+	font-family:"FranklinGothicMedium";
+	margin-right:0%;
+	margin-top:3%;
+	text-align:center;
+	text-indent:0%;
+}
+p.Author-Name {
+	color:#053868;
+	font-size:153%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"FranklinGothicMedium";
+	margin-bottom:0%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:3%;
+	text-align:center;
+	text-indent:0%;
+    letter-spacing: 3px;
+}
+p.Art-Name {
+	color:#053868;
+	font-size:93%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"FranklinGothicMedium";
+	margin-bottom:0%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:.2em;
+	text-align:center;
+	text-indent:0%;
+    letter-spacing: 3px;
+}
+.logo2{
+ width:30%;
+ height:15%;	
+}
+
+.logo1{
+ width:15%;
+ height:15%;	
+}
+
+.auth-h{
+font-size:30px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"SinkinSans700Bold";
+}
+.auth-t{
+	font-family:"FranklinGothicMedium";
+    text-align:justify;	
+	font-size: 120%;
+}
+
+

@@ -1,0 +1,193 @@
+@font-face {
+	font-family:"NewBaskerville";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/NewBaskerville.ttf)
+}
+
+@font-face {
+	font-family:"NewBaskervilleBold";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/NewBaskervilleBold.ttf)
+}
+
+@font-face {
+	font-family:"TimesNewRoman";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/TimesNewRoman.ttf)
+}
+
+@font-face {
+	font-family:"AppleSymbols";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/AppleSymbols.otf)
+}
+
+@font-face {
+	font-family:"SlowlyTwo";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/SlowlyTwo.ttf)
+}
+
+@font-face {
+	font-family:"ArialBold";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/ArialBold.ttf)
+}
+
+@font-face {
+	font-family:"Arial";
+	font-style:normal;
+	font-weight:normal;
+	src:url(../Fonts/Arial.ttf)
+}
+
+
+
+
+
+
+
+
+
+.container {
+	display:block;
+	margin-top:0px;
+	margin-bottom:auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-height:100%;
+	max-width:100%;
+	text-align:center;
+}
+
+
+a{
+	text-decoration:none;
+	 color:#000;
+}
+
+a.visited{
+	color:#000;
+}
+nav {
+display:none;
+}	
+
+
+.p {
+	font-family:"AppleSymbols";
+	font-size:25px;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+.p2 {
+	font-family:"AppleSymbols";
+	font-size:35px;
+	margin-top:3%;
+	text-align:center;
+
+}
+
+.p1 {
+	font-family:"AppleSymbols";
+	font-size:120%;
+	margin-top:3%;
+	text-align:left;
+
+}
+
+
+p.Title {
+	color:#053868;
+	font-size:300%;
+	word-spacing:1px;
+	font-style:normal;
+	font-weight:normal;
+	margin-bottom:0%;
+	margin-left:0%;
+	font-family:"NewBaskervilleBold";
+	margin-right:0%;
+	margin-top:3%;
+	text-align:center;
+	text-indent:0%;
+}
+p.Author-Name {
+	color:#053868;
+	font-size:153%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"SmytheRegular";
+	margin-bottom:0%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:3%;
+	text-align:center;
+	text-indent:0%;
+    letter-spacing: 3px;
+}
+p.Art-Name {
+	color:#053868;
+	font-size:93%;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"NewBaskervilleBold";
+	margin-bottom:0%;
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:.2em;
+	text-align:center;
+	text-indent:0%;
+    letter-spacing: 3px;
+}
+
+
+.logo2{
+ width:30%;
+ height:15%;	
+}
+
+.logo1{
+ width:25%;
+ height:28%;	
+}
+
+
+
+.auth-h{
+font-size:40px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"SlowlyTwo";
+	text-align: center;
+}
+.auth-t{
+	font-family:"AppleSymbols";
+    text-align:justify;	
+	font-size: 18px;
+}
+
+.lfa-h{
+font-size:20px;
+font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-family:"ArialBold";
+	text-align:center;
+}
+
+.lfa-t{
+	font-family:"Arial";
+    text-align: justify;
+	font-size: 16px;	
+}
