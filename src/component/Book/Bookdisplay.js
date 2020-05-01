@@ -10,7 +10,7 @@ export default function Bookdisplay(props){
             <div className='card z-depth-0'>
                 <div className='card-content'>
                     <span className='card-title'>{title}</span>
-                    <p>dasdasdasdasdsadasdasds</p>
+                    <p> (The content of book will be shown here)</p>
                     
                 </div>
             </div>

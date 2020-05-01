@@ -1,46 +1,155 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React, {useState} from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+import title1 from './How The Rooster Found His Sound/552 English/552 How The Rooster Found His Sound_reflow/OEBPS/Images/cover.jpg';
+import title2 from './20 Busy Little Ants/146English/146 20 Busy Little Ants_reflow/OEBPS/Images/cover.jpg';
+import title3 from './Tahlia the Tortoise/527 English/527 Tahlia The Tortoise Finds An Umbrella_reflow/OEBPS/Images/cover.jpg'
+import Typography from '@material-ui/core/Typography';
+import { Button } from "@material-ui/core";
+import Icon from '@material-ui/core/Icon';
+import { Input } from '@material-ui/core';
 
+ 
 
+const info = [
+ {
+      img: title1,
+      title: 'How The Rooster Found His Sound',
+     author: 'abc',
+   },
+   {
+       img:title2,
+       title:'20 Busy Little Ants',
+       author:'abc',
+   },
+   {
+    img:title3,
+    title:'Tahlia the Tortoise',
+    author:'abc',
+}
+  ];
 
-export default function Booklist(){
-    return(
-        <div className='Book-list'>
-                    <div className='card z-depth-0 book-summary' style={{marginBottom:-35}} >
-                        <div className='card-content grey-text text-darken-3'>
-                        <Link to='/Book/20 Busy Little Ants'>
-                        <img className='Cover' alt='asd'src={require('./20 Busy Little Ants/146English/146 20 Busy Little Ants_reflow/OEBPS/Images/cover.jpg')}/>
-                        </Link>
-                            <span className='card-title' style={{fontSize:15 ,fontWeight:'bold'}}>20 Busy Little Ants</span>
-                            
-                            <p style={{marginTop:-10}}>author is ___</p>
+  function Searchbar(props){
+    const [search, setSearch] = useState("");
 
-                        </div>
-                    </div>
-                    <div className='card z-depth-0 book-summary' style={{marginBottom:-35}}>
-                        <div className='card-content grey-text text-darken-3'>
-                        <Link to='/Book/How The Rooster Found His Sound'>
-                        <img className='Cover' alt='asd'src={require('./How The Rooster Found His Sound/552 English/552 How The Rooster Found His Sound_reflow/OEBPS/Images/cover.jpg')}/>
-                        </Link>
-                            <span className='card-title' style={{fontSize:15,fontWeight:'bold'}}>How The Rooster Found His Sound</span>
-                            
-                            <p style={{marginTop:-10}}>author is ___</p>
-
-                        </div>
-                    </div>                    
-                    <div className='card z-depth-0 book-summary' style={{marginBottom:-35}}>
-                        <div className='card-content grey-text text-darken-3'>
-                        <Link to='/Book/Tahlia the Tortoise'>
-                        <img className='Cover' alt='asd'src={require('./Tahlia the Tortoise/527 English/527 Tahlia The Tortoise Finds An Umbrella_reflow/OEBPS/Images/cover.jpg')}/>
-                        </Link>
-                            <span className='card-title' style={{fontSize:15,fontWeight:'bold'}}>Tahlia the Tortoise</span>
-                            
-                            <p style={{marginTop:-10}}>author is ___</p>
-                        </div>
-                    </div>
-
-        </div>
+    return (
+      <div>
+        <Input  
+          
+          style={{width:'80%',color:'white'}}
+          placeholder="Search some book here..."
+          value={search}
+          onChange={e => {
+            setSearch(e.target.value);
+          }}
+          onKeyPress={e => {
+            if (e.key === "Enter") {
+              if (props.onSubmit) {
+                props.onSubmit(search);
+              }
+            }
+          }}
+        />
+        <span style={{position:"relative"}}><Button variant="contained" width='15%' float='right'
+          onClick={e => {
+            if (props.onSubmit) {
+              props.onSubmit(search);
+            }
+          }}
+        >
+          
+          Search
+        </Button>
+        </span>
+      </div>
     )
+  }
+
+export default function TitlebarGridList() {
+  const classes = useStyles();
+  const [search,setSearch]=useState()
+
+  return (
+    <div>
+        <div style={topcontainer}>
+        <Typography component="h1" variant="h2" align="center" style={{color:'white'}} >
+              Libarary For All
+            </Typography>
+            <Typography variant="h5" align="center" style={subheadding} >
+                introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion 
+            </Typography>
+        </div>
+        <div className='Seachbar'>
+          <Searchbar onSubmit={newSearch => setSearch(newSearch)} />
+        </div>
+        
+
+        <div className={classes.root}>
+        <GridList cellHeight={300} className={classes.gridList} cols={7}>
+
+            {info.map((info) => (
+            <GridListTile key={info.img}>
+                <img src={info.img} alt={info.title} />
+                <GridListTileBar
+                title={info.title}
+                subtitle={<span>by: {info.author}</span>}
+                actionIcon={
+                    <Button       
+                    variant="contained"
+                    color="default"
+                    size="small"
+                    className={classes.button}
+                    endIcon={<Icon>send</Icon>}>
+                        Start
+                    </Button>
+                }
+                />
+            </GridListTile>
+            ))}
+        </GridList>
+        </div>
+    </div>
+  );
 }
 
+const useStyles = makeStyles((theme) => ({
+    root: {
+      clear:'both',
+      display: 'flex',
+      flexWrap: 'wrap',
+      justify: 'flex-start',
+      overflow: 'hidden',
+    },
+    search: {
+      border:'10px',
+      borderColor:'blue'
+      },
+
+
+    gridList: {
+      width: '100%',
+      height: 750,
+    },
+    icon: {
+      color: 'rgba(255, 255, 255, 0.54)',
+    },
+  }));
+  
+const topcontainer={
+    backgroundColor:'#273746',
+    paddingTop:'100px',
+    paddingBottom:'50px',
+    paddingLeft:'300px',
+    paddingRight:'300px',
+    
+}
+
+const subheadding={
+    color:'white',
+    marginTop:'50px',
+    marginLeft:'200px',
+    marginRight:'200px'
+}
 
