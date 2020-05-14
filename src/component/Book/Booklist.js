@@ -75,7 +75,7 @@ export default function TitlebarGridList() {
     <div>
         <div style={topcontainer}>
         <Typography component="h1" variant="h2" align="center" style={{color:'white'}} >
-              Libarary For All
+              Library For All
             </Typography>
             <Typography variant="h5" align="center" style={subheadding} >
                 introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion introducion 
