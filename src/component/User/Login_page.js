@@ -27,9 +27,9 @@ class Login extends React.Component{
     
     render(){
         return(
-            <div>
+            <div className="cover" >
                 <center >
-                    <img alt='logo' src={require('../../Library-for-All-Badge-Logo-Black-300x300.png')} width='13%' height='13%'/>
+                    <img alt='logo' src={require('../../Library-for-All-Badge-Logo-Black-300x300.png')}  width='200px' height='200px'/>
                 </center>
 
                 <div className='App-container'style={{backgroundColor:'#121212'}}>

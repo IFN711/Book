@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["UserProfile"],"mappings":";;;;;;;AAAA;;;;eAEeA,oB","sourcesContent":["import UserProfile from './UserProfile';\n\nexport default UserProfile;\n"],"file":"index.js"}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Comment/Date.js"],"names":["styled","div"],"mappings":";;;;;;;AAAA;;;;;;;;;;;;;;;;eAEeA,0BAAOC,G","sourcesContent":["import styled from 'styled-components';\n\nexport default styled.div`\n  margin-left: auto;\n  opacity: 0.5;\n  color: #002c71;\n`;\n"],"file":"Date.js"}

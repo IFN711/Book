@@ -30,7 +30,7 @@ class Signup extends React.Component{
         return( 
         <div >  
             <center >
-                <img alt='logo' src={require('../../Library-for-All-Badge-Logo-Black-300x300.png')} width='13%' height='13%'/>
+                <img alt='logo' src={require('../../Library-for-All-Badge-Logo-Black-300x300.png')} width='200px' height='200px'/>
             </center>
             
 
@@ -54,7 +54,7 @@ class Signup extends React.Component{
                         <label htmlFor='lastName'>lastName</label>
                         <input className='input-data' type='text'id='lastName' required onChange={this.handleChange}/>
                     </div>
-           >
+           
                     <div style={{textAlign:"center"}}>
                         <Button href='Login' type='submit' variant="contained" color='primary' style={{width:'50%'}}>Sign up</Button>
                     </div>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/NewComment/Wrapper.js"],"names":["Box"],"mappings":";;;;;;;AAAA;;AAEA;;;;;;;;;;;;;;;;eAEe,+BAAOA,YAAP,C","sourcesContent":["import styled from 'styled-components';\n\nimport Box from '../Box';\n\nexport default styled(Box)`\n  border-top-left-radius: 0;\n  border-top-right-radius: 0;\n`;\n"],"file":"Wrapper.js"}

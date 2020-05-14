@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/UserProfile/Style.js"],"names":["createGlobalStyle"],"mappings":";;;;;;;AAAA;;;;;;;;;;;;;;mBAEeA,mC","sourcesContent":["import { createGlobalStyle } from 'styled-components';\n\nexport default createGlobalStyle`\n  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');\n`;\n"],"file":"Style.js"}

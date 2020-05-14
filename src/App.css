@@ -1,7 +1,5 @@
 .App-container {
 
- 
-  
 	width: 400px;
 	position: absolute;
 	margin-left: -200px;
@@ -15,9 +13,24 @@
   border-radius: 13px;
 
 }
-input[type=text] {
-  background-color: #3CBC8D;
-  color: white;
+
+.Profile-box{
+  margin-left: 300px;
+  margin-right: 300px;
+
+  border: 10px dotted rgb(1, 15, 13);
+  margin-top: 100px;
+  height: 600px;
+  display: flex;
+
+}
+
+.Portrai{
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius:100%;
 }
 
 .Seachbar{
@@ -37,12 +50,6 @@ input[type=text] {
 
 }
 
-.Cover{
-  height:50% ;
-  width: 50%;
-  border-radius: 13px;
-  
-}
 
 /* 
 

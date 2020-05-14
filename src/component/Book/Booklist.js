@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import { Button } from "@material-ui/core";
 import Icon from '@material-ui/core/Icon';
 import { Input } from '@material-ui/core';
-
+import {Link} from 'react-router-dom'
  
 
 const info = [
@@ -38,7 +38,7 @@ const info = [
       <div>
         <Input  
           
-          style={{width:'80%',color:'white'}}
+          style={{width:'80%',color:'black',fontWeight:"bold"}}
           placeholder="Search some book here..."
           value={search}
           onChange={e => {
@@ -96,7 +96,9 @@ export default function TitlebarGridList() {
                 title={info.title}
                 subtitle={<span>by: {info.author}</span>}
                 actionIcon={
-                    <Button       
+                  <Link to={`/book/${info.title}`} >
+                    <Button 
+                          
                     variant="contained"
                     color="default"
                     size="small"
@@ -104,6 +106,7 @@ export default function TitlebarGridList() {
                     endIcon={<Icon>send</Icon>}>
                         Start
                     </Button>
+                    </Link>
                 }
                 />
             </GridListTile>

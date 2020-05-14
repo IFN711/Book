@@ -6,7 +6,7 @@ import Logout from './Logoutlink';
 const Navibar = ()=>{
     return(
         
-        <nav className='nav-wrapper teal lighten-2'>
+        <nav className='nav-wrapper  blue-grey darken-3'>
                 <div className='container'>
                     <Link to= '/home' className='brand-logo left white-text'>Home page</Link>  > 
                     <Logout/>        

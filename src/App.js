@@ -7,6 +7,7 @@ import Login from '../src/component/User/Login_page';
 import Bookdisplay from './component/Book/Bookdisplay'
 import Signup from './component/User/Signup_page'
 import Home from './Home'
+import Profile from './component/User/profile'
 
 
 // import { render } from '@testing-library/react';
@@ -17,16 +18,19 @@ import Home from './Home'
    render(){
   return (
     <BrowserRouter>
+    
       <div className='App'>
-      
+        
         <Switch>
           <Route exact path='/home' component={Home}/>
           <Route path='/Book/:title' component={Bookdisplay}/>
           <Route path='/login' component={Login}/>
           <Route path='/signup' component={Signup}/>
+          <Route path='/profile' component={Profile}/>
+        
           <Signup/>
-
         </Switch>
+       
       </div>
     </BrowserRouter>
   );

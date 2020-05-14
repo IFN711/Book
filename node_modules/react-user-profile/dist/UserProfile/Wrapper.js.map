@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/UserProfile/Wrapper.js"],"names":["styled","div"],"mappings":";;;;;;;AAAA;;;;;;;;;;;;;;;;eAEeA,0BAAOC,G","sourcesContent":["import styled from 'styled-components';\n\nexport default styled.div`\n  box-sizing: border-box;\n  width: 100%;\n  font-family: Montserrat;\n`;\n"],"file":"Wrapper.js"}

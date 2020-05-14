@@ -1,4 +1,5 @@
 import React from 'react'
+import Navibar from '../layout/Navi';
 
 
 
@@ -6,6 +7,8 @@ import React from 'react'
 export default function Bookdisplay(props){
     const title=props.match.params.title;
     return(
+        <div>
+            <Navibar/>
         <div className='container section Book-detail'>
             <div className='card z-depth-0'>
                 <div className='card-content'>
@@ -21,6 +24,7 @@ export default function Bookdisplay(props){
             </div>
 
            
+        </div>
         </div>
     )
 }
