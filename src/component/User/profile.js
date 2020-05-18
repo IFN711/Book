@@ -49,7 +49,7 @@ export default function Profile() {
         <Navibar/>
         <div className='Profile-box'> 
 
-            <div >
+            <div style={{float:'left', justifycontent:'space-around'}}>
                 <img className='Portrai' src={tom} alt='tom'/>
                 <Button variant="contained" color="primary">change photh</Button>
             </div>

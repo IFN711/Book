@@ -8,10 +8,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@thumbtack/thumbprint-global-css": "^0.1.16",
+    "bootstrap": "^4.5.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^5.7.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "react-textarea-autosize": "^7.1.2",
     "react-user-profile": "^1.0.3"
   },
   "scripts": {

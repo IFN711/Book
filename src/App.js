@@ -8,8 +8,10 @@ import Bookdisplay from './component/Book/Bookdisplay'
 import Signup from './component/User/Signup_page'
 import Home from './Home'
 import Profile from './component/User/profile'
-
-
+import Translate from './component/Action/translate'
+import Review from './component/Action/review'
+import Version from './component/Action/version'
+import Text_area from './component/Action/textarea'
 // import { render } from '@testing-library/react';
 
 
@@ -27,6 +29,10 @@ import Profile from './component/User/profile'
           <Route path='/login' component={Login}/>
           <Route path='/signup' component={Signup}/>
           <Route path='/profile' component={Profile}/>
+          <Route path='/translate' component={Translate}/>
+          <Route path='/review' component={Review}/>
+          <Route path='/version/:title' component={Version}/>
+          <Route path='/textarea/:title' component={Text_area}/>
         
           <Signup/>
         </Switch>
