@@ -15,7 +15,7 @@
     "react-dom": "^16.13.1",
     "react-hook-form": "^5.7.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-textarea-autosize": "^7.1.2",
     "react-user-profile": "^1.0.3"
   },
